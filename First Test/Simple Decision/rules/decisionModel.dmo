@@ -16,19 +16,19 @@
         </extensionElements>
         <variable id="node_0_ii" name="number" typeRef="java.lang.Long"/>
     </inputData>
-    <decision id="node_1" name="High or Low">
+    <decision id="node_1" name="A1">
         <description>High is 6 or above
 Low is 5 or lower</description>
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.Long" collection="false" name="number"/>
-                <output bomType="java.lang.String" collection="false" name="High or Low"/>
+                <output bomType="java.lang.String" collection="false" name="A1"/>
                 <rule defaultRule="false" href="node_1/low.drl" kind="BusinessRule" name="low"/>
                 <rule defaultRule="true" href="node_1/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
                 <rule defaultRule="false" href="node_1/high.drl" kind="BusinessRule" name="high"/>
             </ruleset>
         </extensionElements>
-        <variable id="node_1_ii" name="High or Low" typeRef="java.lang.String"/>
+        <variable id="node_1_ii" name="A1" typeRef="java.lang.String"/>
         <informationRequirement>
             <requiredInput href="#node_0"/>
         </informationRequirement>
