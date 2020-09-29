@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>low</name>
+  <uuid>ee901a5b-8fab-45f7-a3df-cb58e54c7723</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+    number is less than 6
+then
+    set decision to "Low" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
