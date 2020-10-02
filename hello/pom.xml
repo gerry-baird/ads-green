@@ -3,7 +3,7 @@
 
     <groupId>decisions.simple.hello</groupId>
     <artifactId>hello</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <packaging>pom</packaging>
 
@@ -34,5 +34,4 @@
             <url>http://nexus-ads-pipeline.ads-cluster-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/gerry-decisions/</url>
         </repository>
    </distributionManagement>
-
 </project>
