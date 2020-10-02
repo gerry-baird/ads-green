@@ -4,7 +4,7 @@
     <parent>
         <groupId>decisions.simple.hello</groupId>
         <artifactId>hello</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
     </parent>
 
     <artifactId>helloDecisionService</artifactId>
@@ -14,7 +14,7 @@
         <dependency>
             <groupId>decisions.simple.hello</groupId>
             <artifactId>hello_Model</artifactId>
-            <version>LATEST-SNAPSHOT</version>
+            <version>1.0.3</version>
         </dependency>
         <dependency>
             <groupId>com.ibm.decision</groupId>
