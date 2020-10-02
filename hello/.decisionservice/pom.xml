@@ -46,7 +46,7 @@
                                 <artifactItem>
                                     <groupId>decisions.simple.hello</groupId>
                                     <artifactId>hello_Model</artifactId>
-                                    <version>LATEST-SNAPSHOT</version>
+                                    <version>1.0.3</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
                                     <includes>**/*.class</includes>
