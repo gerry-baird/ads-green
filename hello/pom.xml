@@ -24,5 +24,15 @@
             </plugins>
         </pluginManagement>
     </build>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>gerry-decisions</id>
+            <url>http://nexus-ads-pipeline.ads-cluster-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/gerry-decisions/</url>
+        </snapshotRepository>
+        <repository>
+            <id>gerry-decisions</id>
+            <url>http://nexus-ads-pipeline.ads-cluster-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/gerry-decisions/</url>
+        </repository>
+   </distributionManagement>
 
 </project>
