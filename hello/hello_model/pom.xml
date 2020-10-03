@@ -4,12 +4,12 @@
     <parent>
         <groupId>decisions.simple.hello</groupId>
         <artifactId>hello</artifactId>
-        <version>1.0.3</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <groupId>decisions.simple.hello</groupId>
     <artifactId>hello_Model</artifactId>
-    <version>1.0.3</version>
+    <version>LATEST-SNAPSHOT</version>
     <packaging>decision-library</packaging>
 
     <build>
