@@ -1,0 +1,11 @@
+{
+  "input": [
+    {
+      "financial stmt type": "",
+      "name section": "ASSETS|CURRENT ASSETS",
+      "reported description": "Cash and cash equivalents",
+      "table name": "Consolidated Statements of Financial Position"
+    },
+    {}
+  ]
+}

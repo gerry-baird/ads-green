@@ -3,7 +3,7 @@
   <name>say hello</name>
   <uuid>9014ab0f-6ec7-4bf4-8ea7-f366270f0318</uuid>
   <locale>en_US</locale>
-  <definition><![CDATA[if name is defined then set decision to "Hello " + name + " , welcome to ADS !!!!" ; 
+  <definition><![CDATA[if name is defined then set decision to "Hello " + name + " , welcome to ADS Mr K !!!!" ; 
 else  set decision to "Hello Stranger" ;
 ]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

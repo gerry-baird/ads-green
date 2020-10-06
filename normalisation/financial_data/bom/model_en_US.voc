@@ -1,0 +1,12 @@
+
+# ExtractedData
+ExtractedData#concept.label = extractedData
+ExtractedData.ExtractedData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)#phrase.navigation = a new {extractedData} where {0, financial stmt type} {1, name section} {2, table name} {3, reported description}
+ExtractedData.financialStmtType#phrase.action = set the financial stmt type of {this} to {financial stmt type}
+ExtractedData.financialStmtType#phrase.navigation = {financial stmt type} of {this}
+ExtractedData.nameSection#phrase.action = set the name section of {this} to {name section}
+ExtractedData.nameSection#phrase.navigation = {name section} of {this}
+ExtractedData.reportedDescription#phrase.action = set the reported description of {this} to {reported description}
+ExtractedData.reportedDescription#phrase.navigation = {reported description} of {this}
+ExtractedData.tableName#phrase.action = set the table name of {this} to {table name}
+ExtractedData.tableName#phrase.navigation = {table name} of {this}

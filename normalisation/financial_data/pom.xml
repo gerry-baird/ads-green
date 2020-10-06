@@ -2,13 +2,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>decisions.simple.hello</groupId>
-        <artifactId>hello</artifactId>
+        <groupId>decisions.simple.normalisation</groupId>
+        <artifactId>normalisation</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>decisions.simple.hello</groupId>
-    <artifactId>hello_Model</artifactId>
+    <groupId>decisions.simple.normalisation</groupId>
+    <artifactId>financial_Data</artifactId>
     <version>LATEST-SNAPSHOT</version>
     <packaging>decision-library</packaging>
 
@@ -21,10 +21,10 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>hello_Model</name>
+                            <name>financial_Data</name>
                         </deployment>
                     </deployments>
-                <packageName>decisions.simple.hello.hello_model</packageName>
+                <packageName>decisions.simple.normalisation.financial_data</packageName>
                 </configuration>
             <dependencies>
                     <dependency>
@@ -37,4 +37,5 @@
         </plugins>
     </build>
 
+<dependencies/>
 </project>
